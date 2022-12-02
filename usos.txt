@@ -1,0 +1,6 @@
+django-import-export
+
+Usos:
+1. Se puede incluir como una opcion en el panel de administrador de django y aparece como la forma de botones llamados 'import' y 'export'
+2. Manejarlo desde el backend a partir de un archivo resource.py el cual crea una instancia que posteriormente puede ser manejada por codigo y exportar un archivo
+3. A traves de las vistas accionando un boton y devolviendo un httpresponse con un archivo

@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tasks'
+    'tasks',
+    'import_export'
 ]
 
 MIDDLEWARE = [
@@ -119,6 +120,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 LOGIN_URL = '/signin'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
